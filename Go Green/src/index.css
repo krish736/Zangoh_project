@@ -1,0 +1,757 @@
+.container{
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header{
+  /* Frame 7 */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 346px;
+  
+    position: absolute;
+    width: 1280px;
+    height: 36px;
+    left: 80px;
+    top: 64px;
+}
+
+
+.heading{
+  /* Frame 6 */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+  
+    margin: 0 auto;
+    width: 100px;
+    height: 30px;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.links{
+  /* Frame 5 */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+  
+    margin: 0 auto;
+    width: 345px;
+    height: 36px;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.search{
+  /* Component 1 */
+  
+    position: absolute;
+    width: 234px;
+    height: 36px;
+    left: 898px;
+    /* top: 56px; */
+  
+    border-radius: 31px;
+}
+
+.account{
+  /* Frame 4 */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+  
+    margin: 0 auto;
+    width: 192px;
+    height: 36px;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.flex{
+  display: flex;
+}
+
+.icon{
+  width: 20px;
+  height: 20px;
+}
+
+.main{
+  /* Frame 14 */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+  
+    position: absolute;
+    width: 1280px;
+    height: 242px;
+    left: 80px;
+    top: 196px;
+}
+
+.main_heading{
+  /* Frame 12 */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 105px;
+  
+    width: 1280px;
+    height: 150px;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.first_half{
+  /* Greenwave */
+  
+    width: 685px;
+    height: 150px;
+  
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 128px;
+    line-height: 150px;
+  
+    color: #3BAA14;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.second_half{
+  /* Ecology */
+  
+    width: 490px;
+    height: 150px;
+  
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 128px;
+    line-height: 150px;
+  
+    color: #3BAA14;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.sub_main{
+  /* Frame 13 */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 251px;
+  
+    width: 1273px;
+    height: 60px;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.sub_heading{
+  /* Lorem ipsum dolor sit amet consectetur. Mattis accumsan parturient pretium turpis. */
+  
+    width: 511px;
+    height: 60px;
+  
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+  
+    color: #9B9B9B;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.left_footer{
+  /* Frame 11 */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+  
+    position: absolute;
+    width: 372px;
+    height: 124px;
+    left: 80px;
+    top: 589px;
+}
+
+.footer_heading{
+  /* Lorem ipsum dolor sit amet consectetur. */
+  
+    width: 372px;
+    height: 60px;
+  
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+  
+    color: #686868;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.green_button{
+  /* Frame 10 */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 8px 8px 16px;
+    gap: 23px;
+  
+    width: 184px;
+    height: 48px;
+  
+    background: #C4E7B2;
+    border-radius: 34px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.right_footer{
+  /* Component 6 */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    isolation: isolate;
+  
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1320px;
+    top: 673px;
+  
+    border-radius: 41px;
+}
+
+.front_img{
+  /* Group 1 */
+  
+    position: absolute;
+    width: 230px;
+    height: 460px;
+    left: calc(50% - 230px/2);
+    top: 316px;
+}
+
+.select_category{
+  /* Frame 231 */
+  
+    box-sizing: border-box;
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    gap: 24px;
+  
+    position: absolute;
+    width: 190px;
+    height: 40px;
+    left: 80px;
+    top: 161px;
+  
+    border: 1px solid #767676;
+    border-radius: 8px;
+}
+
+.select_price{
+  /* Frame 232 */
+  
+    box-sizing: border-box;
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    gap: 24px;
+  
+    position: absolute;
+    width: 190px;
+    height: 40px;
+    left: 310px;
+    top: 161px;
+  
+    border: 1px solid #767676;
+    border-radius: 8px;
+}
+
+.sort_by{
+  /* Frame 233 */
+  
+    box-sizing: border-box;
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 10px;
+    gap: 24px;
+  
+    position: absolute;
+    width: 282px;
+    height: 40px;
+    left: 1078px;
+    top: 161px;
+  
+    border: 1px solid #767676;
+    border-radius: 8px;
+}
+
+.first_img{
+  /* Component 7 */
+  
+    box-sizing: border-box;
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+  
+    position: absolute;
+    width: 307px;
+    height: 338px;
+    left: 80px;
+    top: 241px;
+  
+    background: #FFFFFF;
+    border: 1px solid #222222;
+    border-radius: 16px;
+}
+
+.second_img{
+  /* Frame 240 */
+  
+    box-sizing: border-box;
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+  
+    position: absolute;
+    width: 307px;
+    height: 338px;
+    left: 405px;
+    top: 241px;
+  
+    border: 1px solid #222222;
+    border-radius: 16px;
+}
+
+.third_img{
+  /* Frame 241 */
+  
+    box-sizing: border-box;
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+  
+    position: absolute;
+    width: 307px;
+    height: 338px;
+    left: 730px;
+    top: 241px;
+  
+    border: 1px solid #222222;
+    border-radius: 16px;
+}
+
+.fourth_img{
+  /* Frame 242 */
+  
+    box-sizing: border-box;
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+  
+    position: absolute;
+    width: 307px;
+    height: 338px;
+    left: 1055px;
+    top: 241px;
+  
+    border: 1px solid #222222;
+    border-radius: 16px;
+}
+
+.spam{
+  /* Rectangle 76 */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+    position: absolute;
+    width: 100vw;
+    height: 48px;
+    left: 0px;
+    top: 132px;
+  
+    background: #F7F7F7;
+}
+
+.Back{
+  /* Frame 231 */
+  
+    box-sizing: border-box;
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+    gap: 8px;
+  
+    position: absolute;
+    width: 70px;
+    height: 40px;
+    left: 80px;
+    top: 204px;
+  
+    border-radius: 8px;
+}
+
+.expand{
+  /* expand_more */
+  
+    width: 24px;
+    height: 24px;
+  
+    /* transform: rotate(90deg); */
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.big_img{
+  /* Component 8 */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+  
+    position: absolute;
+    width: 624px;
+    height: 456px;
+    left: 80px;
+    top: 268px;
+}
+
+.buy_h1{
+  /* Lorem Ipsum */
+  
+    position: absolute;
+    width: 199px;
+    height: 40px;
+    left: 730px;
+    top: 276px;
+  
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height */
+  
+    color: #272727;
+}
+
+.rating{
+  /* Rating */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+  
+    position: absolute;
+    width: 60px;
+    height: 12px;
+    left: 730px;
+    top: 324px;
+}
+
+.buy_text{
+  /* Lorem ipsum dolor sit amet consectetur. Maecenas commodo accumsan maecenas condimentum massa pretium risus eu vulputate. Fringilla venenatis elementum elementum neque morbi non in. Nunc sagittis gravida scelerisque neque integer amet. Gravida et risus dignissim elit sed eu rutrum ullamcorper venenatis. */
+  
+    position: absolute;
+    width: 630px;
+    height: 80px;
+    left: 730px;
+    top: 404px;
+  
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  
+    color: #000000;
+}
+
+.canceled_price{
+  /* ₹48.00 */
+  
+    position: absolute;
+    width: 61px;
+    height: 30px;
+    left: 730px;
+    top: 347px;
+  
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    text-decoration-line: line-through;
+  
+    /* Gray Scale/Gray – 300 */
+    color: #B3B3B3;
+}
+
+.price{
+  /* ₹17.28 */
+  
+    position: absolute;
+    width: 66px;
+    height: 36px;
+    left: 799px;
+    top: 344px;
+  
+    /* Body XXL/Body XXL, 500 */
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+  
+    color: #3BAA14;
+}
+
+.cart{
+  /* Button */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    gap: 16px;
+  
+    position: absolute;
+    width: 476px;
+    height: 51px;
+    left: 884px;
+    top: 570px;
+  
+    background: #2EA504;
+    border-radius: 43px;
+}
+
+.quantity{
+  /* Quantity */
+  
+    box-sizing: border-box;
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+  
+    position: absolute;
+    width: 124px;
+    height: 52px;
+    left: 728px;
+    top: 570.5px;
+  
+    /* Gray Scale/White */
+    background: #FFFFFF;
+    /* Gray Scale/Gray – 100 */
+}
+
+.buy_footer{
+  /* Small Details */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+  
+    position: absolute;
+    width: 328px;
+    height: 54px;
+    left: 728px;
+    top: 670px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.share{
+  /* Share */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    padding: 0px;
+    gap: 10px;
+  
+    position: absolute;
+    width: 206px;
+    height: 24px;
+    left: 730px;
+    top: 508px;
+}
+
+.share_item{
+  /* Share item: */
+  
+    width: 85px;
+    height: 24px;
+  
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+  
+    color: #686868;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.social_icon{
+  /* Social Media
+  
+  
+  Social Media, Facebook. twitter, 
+  */
+  
+    width: 20px;
+    height: 20px;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
